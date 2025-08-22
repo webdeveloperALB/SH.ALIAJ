@@ -22,10 +22,12 @@ export function HeroSection() {
     <section id="home" className="relative overflow-hidden gradient-black-gold min-h-screen flex items-center">
       <div className="absolute inset-0">
         <img
-          className="h-full w-full object-cover opacity-30"
+          className="hidden sm:block h-full w-full object-cover opacity-30 object-center sm:object-cover"
           src="/british-home-logo.png?height=1080&width=1920"
           alt="Luxury modern interior design"
         />
+
+
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
       </div>
 
@@ -67,7 +69,7 @@ export function HeroSection() {
             </div>
           </div>
 
-          <div className="mt-12 flex items-center justify-center gap-x-6 flex-wrap">
+          <div className="mt-12 flex items-center justify-center gap-6 flex-wrap">
             <Button
               size="lg"
               onClick={scrollToProducts}
