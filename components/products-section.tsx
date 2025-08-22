@@ -81,11 +81,11 @@ export function ProductsSection() {
               key={category.title}
               className="group overflow-hidden hover:shadow-2xl hover:shadow-primary/20 transition-all duration-700 border-primary/30 hover:border-primary bg-gradient-to-br from-black/90 via-black/95 to-black/80 backdrop-blur-sm"
             >
-              <div className="aspect-[16/10] sm:aspect-[4/3] overflow-hidden relative">
+              <div className="aspect-[16/9] overflow-hidden relative">
                 <img
                   src={category.images ? category.images[currentImageIndex] : category.image || "/placeholder.svg"}
                   alt={category.title}
-                  className="h-full w-full object-contain object-center transition-transform duration-700 group-hover:scale-105 bg-black/20"
+                  className="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent group-hover:from-black/60 transition-all duration-500" />
                 <div className="absolute top-3 sm:top-4 right-3 sm:right-4 gradient-gold backdrop-blur-sm rounded-full p-2 sm:p-3 shadow-lg">
