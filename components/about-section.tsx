@@ -54,7 +54,6 @@ export function AboutSection() {
                   />
                   <div>
                     <h3 className="font-semibold text-primary text-lg">Shkëlqim Aliaj</h3>
-                    <p className="text-sm text-gray-300 font-medium">CEO & Founder</p>
                     <p className="text-sm text-gray-400">Kamëz, Tiranë</p>
                   </div>
                 </div>

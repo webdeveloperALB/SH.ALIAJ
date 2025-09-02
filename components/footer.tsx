@@ -73,7 +73,7 @@ export function Footer() {
         </div>
         <div className="mt-8 border-t border-border pt-8">
           <p className="text-xs text-muted-foreground text-center">
-            © 2025 British Home. All rights reserved. | CEO: Shkëlqim Aliaj
+            © 2025 British Home. All rights reserved.
           </p>
         </div>
       </div>
