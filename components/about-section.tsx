@@ -46,17 +46,7 @@ export function AboutSection() {
                 affordability.
               </p>
               <div className="mt-8">
-                <div className="flex items-center gap-4 p-6 bg-gradient-to-r from-black/80 to-black/60 rounded-lg border border-primary/30 shadow-lg">
-                  <img
-                    className="h-16 w-16 rounded-full object-cover border-2 border-primary/50"
-                    src="/placeholder.svg?height=64&width=64"
-                    alt="Shkëlqim Aliaj"
-                  />
-                  <div>
-                    <h3 className="font-semibold text-primary text-lg">Shkëlqim Aliaj</h3>
-                    <p className="text-sm text-gray-400">Kamëz, Tiranë</p>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
